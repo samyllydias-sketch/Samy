@@ -19,21 +19,18 @@
 <header>
 <h1>Título principal</h1>
 <h2>Subtítulo</h2>
-<h3>Outro nível de título</h3>
-<p>Este é um parágrafo de texto.</p>
-<p>Podemos escrever quantos parágrafos quisermos.</p>
-<a href="https://www.wikipedia.org">Acessar o site</a>
-<img src="imagem.png" alt="Descrição da imagem">
-<ul>
-<li>Computador</li>
-<li>Teclado</li>
-<li>Mouse</li>
-</ul>
-<ol>
-<li>Primeiro passo</li>
-<li>Segundo passo</li>
-<li>Terceiro passo</li>
-</ol>
-<div>
-<p>Este conteúdo está dentro de uma divisão.</p>
-</div>
+<style></style>
+header {
+background-color: blue;
+}
+header {
+background-color: #183C63;
+color: #FFFFFF;
+}
+main {
+background-color: #FFFFFF;
+color: #183C63;
+}
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
