@@ -1,36 +1,46 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog Tech</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+
+  <header>
+    <h1>Meu blog tech</h1>
+    <h2>Subtítulo do Blog</h2>
+  </header>
+
+  <main>
+    <article>
+      <h2>Meu primeiro post</h2>
+      <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+      <p><em>Por: Marcelo Paludetto</em></p>
+    </article>
+  </main>
+
 </body>
 </html>
-<title>Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<h2>Meu primeiro post</h2>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-<p>Por: Marcelo Paludetto</p>
-<header>
-<h1>Título principal</h1>
-<h2>Subtítulo</h2>
-<style></style>
-header {
-background-color: blue;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
+
 header {
-background-color: #183C63;
-color: #FFFFFF;
+  background-color: #183c63;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
 }
+
 main {
-background-color: #FFFFFF;
-color: #183C63;
+  background-color: #ffffff;
+  color: #183c63;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
 }
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
