@@ -44,3 +44,15 @@ main {
   padding: 20px;
   border-radius: 8px;
 }
+article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+}
+a {
+  color: #183c63;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
