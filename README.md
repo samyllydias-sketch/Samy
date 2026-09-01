@@ -4,7 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Blog Tech</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #183c63;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    main {
+      background-color: #ffffff;
+      color: #183c63;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    article {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 15px;
+    }
+
+    a {
+      color: #183c63;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
@@ -23,36 +60,3 @@
 
 </body>
 </html>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-header {
-  background-color: #183c63;
-  color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-main {
-  background-color: #ffffff;
-  color: #183c63;
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-}
-article {
-  margin-bottom: 20px;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 15px;
-}
-a {
-  color: #183c63;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
